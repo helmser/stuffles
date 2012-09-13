@@ -1,11 +1,13 @@
 <div ng-controller="ActivityStreamController" class="container-fluid">
-All of the activities
 	<div ng-repeat="a in activities">
-	
-		<a href="#/activities/{{a.id}" class="thumb">
-			<img ng-src="{{a.productImageUrl">
-		</a>
-		{{a.who}} {{a.type}} {{a.productName}}
-	
+		<div class="row-fluid">
+			<div class="span1">
+				<a href="#/activities/{{a.id}" class="thumbnail">
+					<img ng-src="{{a.productImageUrl}}">
+				</a>
+				
+			</div>
+			<div class="span4">{{a.who}} {{a.type}} {{a.productName}}</div>
+		</div>
 	</div>
 </div>
