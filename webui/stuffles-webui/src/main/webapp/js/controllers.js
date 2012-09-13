@@ -13,7 +13,7 @@ function SearchController($scope) {
 
 function ActivityStreamController($scope, $http) {
 	$http.get("data/activities.json").success(function(data) {
-		$scope.activities = data;
+		$scope.activities = data.stream;
 	});
 }
 

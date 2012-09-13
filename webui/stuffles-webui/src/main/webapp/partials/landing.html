@@ -1,5 +1,5 @@
 <div ng-controller="ActivityStreamController" class="container-fluid">
-	<div ng-repeat="a in activities">
+	<div ng-repeat="a in activities | orderBy:'-timestamp'">
 		<div class="row-fluid">
 			<div class="span1">
 				<a href="#/activities/{{a.id}" class="thumbnail">
