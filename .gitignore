@@ -1,4 +1,11 @@
 *.class
+/target
+/.project
+/.settings
+/.DS_Store
+webui/stuffles-webui/.classpath
+webui/stuffles-webui/.project
+webui/stuffles-webui/.settings
 
 # Package Files #
 *.jar
