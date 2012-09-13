@@ -1,31 +1,35 @@
 <!doctype html>
 <html lang="en" ng-app="stuffles">
 <head>
-  <meta charset="utf-8">
-  <title>Stuffles</title>
-  <link rel="stylesheet" href="css/app.css"/>
-  <link rel="stylesheet" href="css/bootstrap-responsive.min.css"/>
-  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+<meta charset="utf-8">
+<title>Stuffles</title>
+<link rel="stylesheet" href="css/app.css" />
+<link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
+<link rel="stylesheet" href="css/bootstrap.min.css" />
 </head>
 <body>
-  <ul class="menu">
-    <li><a href="#/landing">Home</a></li>
-    <li><a href="#/product">Product</a></li>
-  </ul>
-  
-  <div ng-view></div>
+	<p />
+	<div class="container-fluid" ng-controller="SearchController">
+		<div class="row-fluid">
+			<form novalidate class="form-search">
+				<span class="span2"></span>
+				<div class="input-append span8">
+					<input type="text" class="input-xxlarge search-query" ng-model="query" />
+					<button type="submit" class="btn btn-primary" ng-click="search();">SEARCH</button>
+				</div>
+				<span class="span2"></span>
+			</form>
+		</div>
+	</div>
 
-  <div>Stuffles: v<span app-version></span></div>
+	<div ng-view></div>
 
-  <!-- In production use:
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
-  -->
-  <script src="lib/angular/angular.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/services.js"></script>
-  <script src="js/controllers.js"></script>
-  <script src="js/filters.js"></script>
-  <script src="js/directives.js"></script>
-  <script src="lib/bootstrap.min.js"></script>
+	<script src="lib/angular/angular.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/services.js"></script>
+	<script src="js/controllers.js"></script>
+	<script src="js/filters.js"></script>
+	<script src="js/directives.js"></script>
+	<script src="lib/bootstrap.min.js"></script>
 </body>
 </html>

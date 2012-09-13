@@ -1,0 +1,51 @@
+[
+	{
+		"timestamp": 100,
+		"when": "an hour ago",
+		"product": "the-product-id",
+		"productName": "Hair gel",
+		"who": "Pappy Finklestein",
+		"userId": 1,
+		"productImageUrl": "img/bike.jpg",
+		"type": "has",
+		"reviewStars": 5,
+		"review": "This stuff is great!"
+	},
+	{
+		"timestamp": 99,
+		"when": "an hour ago",
+		"product": "the-product-id",
+		"productName": "Hair gel",
+		"who": "Pappy Finklestein",
+		"userId": 1,
+		"productImageUrl": "img/bike.jpg",
+		"type": "has",
+		"reviewStars": 5,
+		"review": "This stuff is great!"
+	},
+	{
+		"timestamp": 98,
+		"when": "an hour ago",
+		"product": "the-product-id",
+		"productName": "Hair gel",
+		"who": "Pappy Finklestein",
+		"userId": 1,
+		"productImageUrl": "img/bike.jpg",
+		"type": "has",
+		"reviewStars": 5,
+		"review": "This stuff is great!"
+	},
+	{
+		"timestamp": 97,
+		"when": "an hour ago",
+		"product": "the-product-id",
+		"productName": "Hair gel",
+		"who": "Pappy Finklestein",
+		"userId": 1,
+		"productImageUrl": "img/bike.jpg",
+		"type": "has",
+		"reviewStars": 5,
+		"review": "This stuff is great!"
+	}
+]
+	

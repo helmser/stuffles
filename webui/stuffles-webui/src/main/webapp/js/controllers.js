@@ -3,10 +3,19 @@
 /* Controllers */
 
 
-function MyCtrl1() {}
-MyCtrl1.$inject = [];
-
-
-function MyCtrl2() {
+function SearchController($scope) {
+	$scope.query = "Find some Stuffles"
+	$scope.search = function() {
+		
+	}
 }
-MyCtrl2.$inject = [];
+
+
+function ActivityStreamController($scope, $http) {
+	$http.get("data/activities.json").success(function(data) {
+		$scope.activities = data;
+	});
+}
+
+function ProductController($scope) {
+}

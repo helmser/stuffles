@@ -1,1 +1,11 @@
-<p>This is the landing page</p>
+<div ng-controller="ActivityStreamController" class="container-fluid">
+All of the activities
+	<div ng-repeat="a in activities">
+	
+		<a href="#/activities/{{a.id}" class="thumb">
+			<img ng-src="{{a.productImageUrl">
+		</a>
+		{{a.who}} {{a.type}} {{a.productName}}
+	
+	</div>
+</div>
